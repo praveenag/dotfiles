@@ -1,0 +1,27 @@
+[user]
+	name = Praveena G 
+	email = asda@gmail.com
+[alias]
+	st = status
+	br = branch
+	co = checkout
+	df = diff
+	lol = log --abbrev-commit --decorate --graph --all --oneline
+  sf = show --pretty="format:" --name-only
+[color]
+	ui = always
+[color "diff"]
+	old = red 
+[color "branch"]
+	remote = blue
+	plain = white
+[color "status"]
+	added = yellow
+        updated = green
+	changed = cyan 
+	untracked = red 
+	nobranch = blue
+	branch = white
+	unmerged = blue
+[core]
+	editor = vim
