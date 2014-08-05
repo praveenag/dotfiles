@@ -8,6 +8,8 @@
 	df = diff
 	lol = log --abbrev-commit --decorate --graph --all --oneline
   sf = show --pretty="format:" --name-only
+  pom = push origin master
+  dc = diff --cached
 [color]
 	ui = always
 [color "diff"]
